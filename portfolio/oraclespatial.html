@@ -1,0 +1,145 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,500|Roboto:300,300i,500" rel="stylesheet">
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/style2.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <title>Eniola Babatunde | Portfolio </title>
+</head>
+<body>
+  <div id="wrapper">
+
+      <header>
+        <h1 class="__main">
+          Eniola Babatunde
+        </h1>
+        <h1 class="__sub">
+                  Geographical Information Science Graduate
+        </h1>
+      </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="active" href="">Portfolio</a>
+        </li>
+        <li>
+          <a href="../cv.html">Curriculum Vitae</a>
+        </li>
+        <li>
+          <a href="../contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="section group">
+        <div class="col span_3_of_12 skills-demonstrated">
+          <h3>
+            Skills Demonstrated
+          </h3>
+          <ul>
+            <li>
+               Spatial databases 
+            </li>
+            <li>
+              Oracle Spatial
+            </li>
+             <li>
+              Webprogramming
+            </li>
+            <li>
+              SQL
+            </li>
+          </ul>
+        </div>
+        <div class="col span_9_of_12">
+         <h2>
+           Implementation of an online vampire game using Oracle Spatial
+          </h2>
+          <p>This fun vampire game was created within 4 weeks for a spatial database course as a group.
+            The primary objective of this project was to implement a database in Oracle Spatial to store spatial data, and execute spatial queries and computations. This was achieved by building a game platform. This project contains a number of spatial operations and data structures, allowing us to improve our knowledge of Oracle Spatial, while creating something fun and interactive.
+          </p>
+         <p>My responsibility within the group: I designed the website and it's styling as well as the database design.
+          </p> 
+          <p>
+            The subject of the game is a vampire who has been stranded in the center of Edinburgh at sunrise and must navigate back to its lair via a network of cafes. Cafe locations are stored as points, while a set of polygons represent “danger zones” in which the player is at risk. A map displays the player’s current location, the lair, all cafes, and danger zones. Spatial queries are used each turn to determine whether a player’s navigational choice results in success or failure.
+         </p>
+          <p>
+            <a class="text__link"  target="_blank" href="https://www.geos.ed.ac.uk/~s1733316/cgi-bin/vampireGame.py#playgame"><img src="../images/link2.png" style="height:20px" class="icon">Play Game</a>
+          </p> 
+          <p>
+            <span class="bold-orange">&#171;</span>
+            <a  class="text__link" href="../portfolio.html">Back</a>
+          </p>
+        </div>
+      </div>
+ 
+
+
+      <div class="section group">
+        <div class="col span_3_of_12"></div>
+        <div class="col span_9_of_12">
+          <div class="section group">
+            <div class="col span_6_of_12">
+
+ 
+
+    <a target="_top" href="../images/spatial_database.jpg">
+                <img class="portfolio-output" src="../images/spatial_database.jpg" />
+              </a> 
+<!--<p class="caption">Database design (E-R Model)</b></p></div>-->
+            
+
+
+
+            </div>
+          </div>
+        </div>
+     
+
+   </div>
+
+
+<script>
+
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+    </main>
+    <footer>
+      Eniola Babatunde | 2018
+    </footer>
+  </div> <!-- end of wrapper -->
+</body>
+</html>

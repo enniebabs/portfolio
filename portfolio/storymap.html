@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,500|Roboto:300,300i,500" rel="stylesheet">
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/style2.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <title>Eniola Babatunde | Portfolio </title>
+</head>
+<body>
+  <div id="wrapper">
+
+      <header>
+        <h1 class="__main">
+          Eniola Babatunde
+        </h1>
+        <h1 class="__sub">
+         Geographical Information Science Graduate
+        </h1>
+      </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="active" href="">Portfolio</a>
+        </li>
+        <li>
+          <a href="../cv.html">Curriculum Vitae</a>
+        </li>
+        <li>
+          <a href="../contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="section group">
+        <div class="col span_3_of_12 skills-demonstrated">
+          <h3>
+            Skills Demonstrated
+          </h3>
+          <ul>
+            <li>
+               Story telling
+            </li>
+            <li>
+              Visual analytics
+            </li>
+             <li>
+              Maps
+            </li>
+          </ul>
+        </div>
+        <div class="col span_9_of_12">
+         <h2>
+           Storymap : Telling a  story about the global hunger crisis with maps and visual elements
+          </h2>
+          <p>For this project, I created a story map which gives a narrative about the hunger crisis at global level and then focuses on the major areas affected. It summarizes the facts, causes, and issues related to hunger into four sections for easy read of the audience.
+          </p>
+          <p>Various factors were taken into consideration in the design of the story, typography, colour schemes as well as type of map whether static or dynamic</p>
+         <p>This story maps emphasizes on contextual graphics to carry the reader along and links media from disparate sources. 
+          </p> 
+          <p>Resources used:  </p>
+          <div class="technologies-demonstrated">
+<ul>
+            <li>GIMP (Image Manipulation Program) -- <a href = "https://www.gimp.org/">https://www.gimp.org/</a></li>
+<li>ArcGIS online Map -- <a href="https://www.arcgis.com/features/maps/index.html">https://www.arcgis.com/features/maps/index.html</a></li>
+<li>ArcGIS online Story Map Cascade -- <a href="https://storymaps.arcgis.com/en/app-list/cascade/">https://storymaps.arcgis.com/en/app-list/cascade/</a></li>
+<li>Plotly</li>
+<li>Youtube</li>
+</ul>
+</div>
+       
+          <p>
+            <a class="text__link"  target="_blank" href="https://edinuniv.maps.arcgis.com/apps/Cascade/index.html?appid=ee0cb33c25444c7d90648a1172514452"><img src="../images/link2.png" style="height:20px" class="icon">View Storymap</a>
+          </p> 
+          <p>
+            <span class="bold-orange">&#171;</span>
+            <a  class="text__link" href="../portfolio.html">Back</a>
+          </p>
+        </div>
+      </div>
+ 
+
+
+      <div class="section group">
+        <div class="col span_3_of_12"></div>
+        <div class="col span_9_of_12">
+          <div class="section group">
+            <div class="col span_6_of_12">
+
+ 
+
+    <a target="_top" href="../images/hungercrisis.png">
+                <img class="portfolio-output" src="../images/hungercrisis.png" />
+              </a> 
+
+            </div>
+            <div class="col span_6_of_12">
+
+
+    <a target="_top" href="../images/hunger2.png">
+                <img class="portfolio-output" src="../images/hunger2.png" />
+              </a> 
+            </div>       
+          </div>
+          <p class="caption">The Storymap contains an interactive map displaying global hunger index by severity .</b></p>
+        </div>
+     
+
+   </div>
+
+
+<script>
+
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+    </main>
+    <footer>
+      Eniola Babatunde | 2018
+    </footer>
+  </div> <!-- end of wrapper -->
+</body>
+</html>

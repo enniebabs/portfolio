@@ -1,0 +1,169 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,500|Roboto:300,300i,500" rel="stylesheet">
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <title>Eniola Babatunde | Home </title>
+</head>
+<body>
+  <div id="wrapper">
+
+      <header>
+        <h1 class="__main">
+          Eniola Babatunde
+        </h1>
+        <h1 class="__sub">
+          GIS Graduate
+        </h1>
+      </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="active" href="">Portfolio</a>
+        </li>
+        <li>
+          <a href="../cv.html">Curriculum Vitae</a>
+        </li>
+        <li>
+          <a href="../contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="section group">
+        <div class="col span_3_of_12 skills-demonstrated">
+          <h3>
+            Skills Demonstrated
+          </h3>
+          <ul>
+            <li>
+              Web programming
+            </li>
+            <li>
+              SQL
+            </li>
+            <li>
+              Geovisualization
+            </li>
+            <li>
+              Databases
+            </li>
+          </ul>
+        </div>
+        <div class="col span_9_of_12">
+       <h2>Geovisualisation for historical research using Leaflet and other web-GIS tools</h2>
+<p>
+In this project I designed  an interface which would show how web-GIS and its capabilities can be a powerful tool in handling quantitative and qualitative sources in historical research and how this in turn can enrich their discipline.</p>
+<p>A web map was developed for a study area, Islay- rich in history and culture. An analysis of user requirements historical researchers and casual map users was examined and this allowed the creation of a customized set of information and functionality. The web map, based on the JavaScript client Leaflet provided an excellent basis for the implementation of standardized data formats from disparate sources and a flexible way to implement the functionality based on user requirements needed to create the web map. Special focus has been put on visualization capabilities of GIS.</p> 
+         <p>
+            <a class="text__link"  target="_blank" href="https://www.geos.ed.ac.uk/~s1774346/cgi-bin/dissertation2.py"><img src="../images/link2.png" style="height:20px" class="icon">View Web Map</a>
+          </p> 
+          <p>
+            <span class="bold-orange">&#171;</span>
+            <a class="" href="../portfolio.html">Back</a>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="section group">
+        <div class="col span_3_of_12"></div>
+        <div class="col span_9_of_12">
+          <div class="section group">
+            <div class="col span_6_of_12">
+<div class="imagebox">
+  <a target="_top" href="../images/system_diagram.png">
+                <img class="portfolio-output" src="../images/system_diagram.png" />
+              </a> 
+<p class="caption">System diagram of the interaction of the various technologies involved in the map application.<br><b>Click on image for a larger view</b></p>
+</div>
+              <a target="_top" href="../images/e-r_model.png">
+                <img class="portfolio-output" src=".../images/er-model.png" />
+              </a>
+
+ <div class="col span_6_of_12">
+              <a target="_top" href="../images/e-r_model.png">
+                <img class="portfolio-output" src=".../images/er-model.png" />
+              </a>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="section group">
+            <div class="col span_6_of_12">
+              <a target="_top" href="../images/portfolio/GEOG5510-assessment-1/output1.png">
+                <img class="portfolio-output" src="../images/portfolio/GEOG5510-assessment-1/output1.png" />
+              </a>
+            </div>
+            <div class="col span_6_of_12">
+              <a target="_top" href="../images/portfolio/GEOG5510-assessment-1/output2.png">
+                <img class="portfolio-output" src="../images/portfolio/GEOG5510-assessment-1/output2.png" />
+              </a>
+            </div>
+
+         <!--     <a target="_top" href="../images/system_diagram.png">
+                <img class="portfolio-output" src="../images/system_diagram.png" />
+              </a>
+            </div>
+            <div class="col span_6_of_12">
+              <a target="_top" href="../images/e-r_model.png">
+                <img class="portfolio-output" src=".../images/e-r_model.png" />
+              </a>-->
+
+
+
+<script>
+
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+    </main>
+    <footer>
+      Eniola Babatunde | 2018
+    </footer>
+  </div> <!-- end of wrapper -->
+</body>
+</html>

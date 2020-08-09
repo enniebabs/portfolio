@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,500|Roboto:300,300i,500" rel="stylesheet">
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <title>Eniola Babatunde | Home </title>
+</head>
+<body>
+  <div id="wrapper">
+
+      <header>
+        <h1 class="__main">
+          Eniola Babatunde
+        </h1>
+        <h1 class="__sub">
+                  Geographical Information Science Graduate
+        </h1>
+      </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="active" href="">Portfolio</a>
+        </li>
+        <li>
+          <a href="../cv.html">Curriculum Vitae</a>
+        </li>
+        <li>
+          <a href="../contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="section group">
+        <div class="col span_3_of_12 skills-demonstrated">
+          <h3>
+            Skills Demonstrated
+          </h3>
+          <ul>
+            <li>
+             Viewshed analysis
+            </li>
+            <li>
+              Photomontages
+            </li>
+            <li>
+              Photoshop
+            </li>
+             <li>
+             Visual analytics
+            </li>
+               <li>
+            3D Sketchup
+            </li>
+            <li>
+              Teamwork
+            </li>
+          </ul>
+        </div>
+        <div class="col span_9_of_12">
+                 <h2>
+            Identifying Suitable Sites for Single Medium-Scale Wind Turbines around Kindrogan using GIS and Field Techniques
+          </h2>
+          <p>
+            This was a group project during a fieldtrip to Kindrogan (Scotland) where we identifying suitable sites for medium-scale single wind turbines (100 - 500 kW; Hau, 2013), east of the Kindrogan Field Centre, Blairgowrie .
+          </p>
+             <p>
+           To assess the visual impact of wind turbines in the landscape, I was involved in the creation of photomontages photomontages were created using photographs from the field and the creation of viewsheds. Viewshed analyses were run to establish the visibility of the wind turbine at proposed hub heights (i.e. blade axis) and tip heights (i.e. maximum height) using a 5m DTM at heights 30m and 50m allowing identification of visible and non-visible areas.
+          </p>
+        <p> The photomontage was carried out by superimposing the modelled turbines onto photographs of each turbine site using Adobe Photoshop.  Wind turbine sites were selected based several criteria using ArcGIS Buffer and Subtract tools. These criteria were divided into three main headings: wind resource, cost and planning permission potential.</p>   
+        <p>For scientific literature see <a href="../documents/suitability.pdf">report</a>.</p>
+          <p>
+            <span class="bold-orange">&#171;</span>
+            <a  class="text__link" href="../portfolio.html">Back</a>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="section group">
+        <div class="col span_3_of_12"></div>
+        <div class="col span_9_of_12">
+          <div class="section group">
+            <div class="col span_6_of_12">
+
+  <a target="_top" href="../images/v1.jpg">
+                <img class="portfolio-output" src="../images/v1.jpg" />
+              </a> 
+<p class="caption">Viewshed Analysis for Wind Turbine 1.</p></div> 
+
+ <div class="col span_6_of_12">
+    <a target="_top" href="../images/photomontage.jpg">
+                <img class="portfolio-output" src="../images/photomontage.jpg" />
+              </a> 
+<p class="caption">Photomontage for Wind Turbine 2 at 50m hub height</b></p></div> 
+            
+
+
+
+            </div>
+          </div>
+        </div>
+     
+
+
+
+
+<script>
+
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+    </main>
+    <footer>
+      Eniola Babatunde | 2018
+    </footer>
+  </div> <!-- end of wrapper -->
+</body>
+</html>
