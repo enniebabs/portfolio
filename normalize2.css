@@ -530,8 +530,11 @@ ul.headbox {
 ul.main {
     list-style-type: square;
     }
-
-li.headlist {
+    
+.bigFont li{
+font-size:8px;
+}
+/*li.headlist {
     float: left;
 }
 
@@ -547,7 +550,7 @@ li.headlist a:hover {
     background-color: #495896;
 }  
 
-
+*/
 
 
 

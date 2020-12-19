@@ -339,3 +339,8 @@ template {
 [hidden] {
   display: none;
 }
+
+
+.bigFont li{
+font-size:8px;
+}
